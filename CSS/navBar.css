@@ -1,0 +1,65 @@
+@import url(http://fonts.googleapis.com/css?family=Raleway);
+body{
+    
+
+    
+    background: url("../IMAGINI/3\ \(3\).jpg") no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+}
+ul{
+    list-style-type:none;
+    }
+
+a{
+    
+    color:#fff !important;
+    font: 20px Century Gothic;
+    height: 40;
+    text-decoration: none;
+    
+}
+.nav-item {
+    font-family: Century Gothic;
+    margin: 0 auto;
+    padding: 5em 3em;
+    text-align: center;
+}
+.nav-item a {
+    color: #FFF;
+    text-decoration: none;
+    font: 20px Century Gothic;
+    margin: 0px 10px;
+    padding: 10px 10px;
+    position: relative;
+    z-index: 0;
+}
+
+
+/* Top & Bottom Borders Out */
+.topBotomBordersOut a:before, .topBotomBordersOut a:after {
+    position: absolute;
+    left: 0px;
+    width: 100%;
+    height: 2px;
+    background: #FFF;
+    content:"";
+    opacity: 0;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+}
+.topBotomBordersOut a:before {
+    top: 0px;
+    transform: translateY(10px);
+}
+.topBotomBordersOut a:after {
+    bottom: 0px;
+    transform: translateY(-10px);
+}
+.topBotomBordersOut a:hover:before, .topBotomBordersOut a:hover:after {
+    opacity: 1;
+    transform: translateY(0px);
+}
