@@ -138,25 +138,18 @@ a.nav-link {
 .welcomeDiv{
     position: relative;
     display: flex;
-    background-image: url("../IMAGINI/3 (1).jpg");
+    background-image: url("../IMAGINI/head3.jpg");
     height: 100%; 
 
   /* Center and scale the image nicely */
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-    
+    height: 500px;
 }
-.img1,
-.img2,
-.img3{
-    background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
 
-  height:-webkit-fill-available;
-}
-.titleWelcome{
+
+.titleWelocome{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -169,47 +162,55 @@ a.nav-link {
     margin:o px;
     box-sizing: border-box;
     margin: auto;
-    
-    
-
-
+    text-align: center
 }
 
-#messageContent{
-    font: 60px Century Gothic;
-    line-height: 1.1;
-    color:#404040;
-    visibility: visible;
-    text-align: center;
-    margin-bottom: 15px;
-    animation-name: rollIn;
-    animation-duration: 1s;
-    animation-fill-mode: both;
-    box-sizing: border-box;
-    margin:auto;
-    margin-top: 150px;
 
-}
+
+
 
 #nameStore{
-    font: 90px Century Gothic;
-    font-weight: 700;
-    line-height: 1.1;
-    color:#404040;
-    text-transform: uppercase;
-    letter-spacing: 10px;
-    word-spacing: 10px;
-    visibility:visible;
+    font-size: 5.5rem;
+    box-sizing: border-box;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
     text-align: center;
-    margin-bottom: 37ox;
-    animation-name: lightSpeedIn;
-    animation-duration: 1s;
-    animation-fill-mode: both;
-    animation-timing-function: ease-out;
+    color: rgb(255, 255, 255);
+    font-family: cursive;
+    font-weight: 700;
+    font: Century Gothic;
+
+
 }
+.picture{
+
+ font-size: 5.5rem;
+    box-sizing: border-box;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size:20px;
+    font-family: cursive;
+    font-weight: 700;
+    font: Century Gothic;
+
+}
+
+
 
 .occasionsFlower{
     display:flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+    flex: 0 1 auto;
+    margin: 0px;
 }
 .boxImage{
     display: flex;
@@ -217,4 +218,14 @@ a.nav-link {
 
 .cardImage{
     border-radius: 50%;
+   
 }
+.cardImage img{
+    width: 200px;
+    height:200px;
+
+}
+.descriereBuchetDiv{
+    text-align: center;
+}
+
