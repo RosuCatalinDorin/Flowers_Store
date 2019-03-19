@@ -2,6 +2,10 @@ ody {
     margin: 0;
     padding: 0;
 }
+.logo1{
+    width: auto;
+    height: auto;
+}
 
 a.navbar-brand {
     float: left;
@@ -14,6 +18,7 @@ a.navbar-brand {
     font-family: cursive;
     font-weight: 700;
     font: 20px Century Gothic;
+    
 
 }
 
@@ -34,7 +39,9 @@ nav.main-navigation ul.nav-list {
     display: inline-block;
     line-height: 40px;
     margin-left: 30px;
-    margin-top: 15px;
+    margin-top: 40px;
+    margin-bottom: 80px;
+
 }
 
 a.nav-link {
@@ -146,10 +153,10 @@ a.nav-link {
   background-repeat: no-repeat;
   background-size: cover;
     height: 700px;
-    border-radius: 9px 9px 9px 9px;
--moz-border-radius: 9px 9px 9px 9px;
--webkit-border-radius: 9px 9px 9px 9px;
-border: 0px solid #000000;
+    border-radius: 41px 41px 41px 41px;
+    -moz-border-radius: 41px 41px 41px 41px;
+    -webkit-border-radius: 41px 41px 41px 41px;
+    border: 0px solid #000000;
 }
 
 
@@ -253,7 +260,12 @@ body{ font-size: 16px; font-family: 'Bitter', serif; width: 100%; height: 100%; 
 	color: #333; }
 
 
-h1, h2, h3, h4, h5, h6, p, a, ul, span, li, img, inpot, button{ margin: 0; padding: 0; }
+h1, h2, h3, h4, h5, h6, p, a, ul, span, li, img, inpot, button{ margin: 0; padding: 0;
+
+    color: #ff666f;
+    font-family: cursive;
+    font-weight: 700;
+    font: 20px Century Gothic; }
 
 h1,h2,h3,h4,h5,h6{ line-height: 1.5; font-weight: inherit; }
 
@@ -276,7 +288,7 @@ a b.light-color:hover{ text-decoration: none; color: #E45F74; }
 
 b{ font-weight: 500; }
 
-img{ width: 20%; }
+img{ width: 100%; }
 
 li{ list-style: none; display: inline-block; }
 
@@ -426,28 +438,16 @@ b.light-color{ color: #444; }
 .story-area{ position: relative; z-index: 1; }
 
 .story-area:after{ content: ''; position: absolute; top: 0; bottom: 0; left: 0; right: 0; z-index: -1;
-	opacity: .8; background: url(../IMAGINI/aboutme.jpg); background-repeat: no-repeat; background-position: center; margin-top: 40px; margin-bottom: 60px; height: 400px;border-radius: 200px 200px 200px 200px;
+	 background: url(../IMAGINI/aboutme.jpg); background-repeat: no-repeat; background-position: center; margin-top: 40px; margin-bottom: 60px; height: 400px;border-radius: 200px 200px 200px 200px;
     -moz-border-radius: 200px 200px 200px 200px;
     -webkit-border-radius: 200px 200px 200px 200px;
-    border: 0px solid #000000;  }
+    border: 0px solid #000000; -webkit-box-shadow: 22px -11px 59px -9px rgba(0,0,0,0.75);
+    -moz-box-shadow: 22px -11px 59px -9px rgba(0,0,0,0.75);
+    box-shadow: 22px -11px 59px -9px rgba(0,0,0,0.75); }
 
 
 /* ---------------------------------
-6. REMAINING TIME
---------------------------------- */
-
-.counter-area{ position: relative; z-index: 1; 
-	background-image: url(../../images/counter-1-1600x600.jpg); background-size: cover; color: #fff; }
-
-.counter-area:after{ content:''; position: absolute; top: 0; bottom: 0; left: 0; right: 0; 
-	z-index: -1; background: rgba(0,0,0,.3); }
-	
-.remaining-time .time-sec{ position: relative; display: inline-block; margin: 0 20px; margin-bottom: 30px; 
-	height: 120px; width: 120px; padding-top: 25px; border-radius: 100px; border: 1px solid #fff; }
-
-.remaining-time .time-sec .title{ font-size: 3em; line-height: 1; display: block; }
-
-
+6
 
 /* ---------------------------------
 7. WEDDING DETAILS AREA
@@ -458,7 +458,7 @@ b.light-color{ color: #444; }
 .wedding-details:after{ content:''; position: absolute; top: 0; bottom: 0; left: 50%; margin-left: -.5px;
 	width: 1px; background: #ccc; margin-top: 40px; }
 
-.w-detail{ width: 50%; padding: 0 50px; margin-bottom: 30px; position: relative; clear: both; margin-top: -40px; }
+.w-detail{ width: 50%; padding: 0 50px; margin-bottom: 30px; position: relative; clear: both; margin-top: 40px; }
 
 .w-detail:first-child{ margin-top: 40px; }
 
@@ -488,10 +488,18 @@ b.light-color{ color: #444; }
 --------------------------------- */
 
 .ceremony-area{ position: relative; z-index: 1; 
-	background-image: url(../../images/counter-1-1600x600.jpg); background-size: cover; color: #fff; }
+    background-image: url(../IMAGINI/event6.jpg); background-position:top;background-size: cover; color: #fff; bborder-radius: 200px 200px 200px 200px;
+    -moz-border-radius: 200px 200px 200px 200px;
+    -webkit-border-radius: 200px 200px 200px 200px;
+    border: 0px solid white; }
 
 .ceremony-area:after{ content:''; position: absolute; top: 0; bottom: 0; left: 0; right: 0; 
-	z-index: -1; background: rgba(0,0,0,.3); }
+	z-index: -1; background: rgba(0,0,0,.3);border-radius: 200px 200px 200px 200px;
+    -moz-border-radius: 200px 200px 200px 200px;
+    -webkit-border-radius: 200px 200px 200px 200px;
+    border: 0px solid #000000; -webkit-box-shadow: 22px -11px 59px -9px rgba(0,0,0,0.75);
+    -moz-box-shadow: 22px -11px 59px -9px rgba(0,0,0,0.75);
+    box-shadow: 22px -11px 59px -9px rgba(0,0,0,0.75); }
 	
 .ceremony .desc{ margin-bottom: 15px; color: #fff;  }
 
@@ -500,11 +508,15 @@ b.light-color{ color: #444; }
 9. CONTACT AREA
 --------------------------------- */
 
-.contact-area{ position: relative; overflow: hidden; box-shadow: 1px 10px 40px rgba(0,0,0,.4); }
+.contact-area{ background-image: url("../IMAGINI/2.jpg");height: 600;
+    width: 1000px;background-repeat: no-repeat;background-position: top;position: relative; overflow: hidden; box-shadow: 1px 10px 40px rgba(0,0,0,.4); border-radius: 41px 41px 41px 41px;
+    -moz-border-radius: 41px 41px 41px 41px;
+    -webkit-border-radius: 41px 41px 41px 41px;
+    border: 0px solid #000000;}
 
-.contact-area .contact-wrapper{ width: 50%; }
+.contact-area .contact-wrapper{ width: 100%; }
 
-.contact-area .map-area{ width: 50%; position: absolute; top: 0; bottom: 0; right: 0; }
+.contact-area .map-area{ width: 50%; position: absolute; top: 0; bottom: 0; right: 0;}
 
 
 .contact-area .phone{ margin: 10px 0; font-size: 2em; color: #E45F74; }
@@ -530,7 +542,8 @@ footer:after{ content: ''; position: absolute; top: 0; bottom: 0; left: 0; right
 footer ul > li > a{ padding: 10px 15px; }
 
 
-footer .logo-wrapper .icon{ color: #E45F74; }
+footer .logo-wrapper .icon{ color: #E45F74;}
+
 
 footer .logo{ display: block; height: 50px; }
 
