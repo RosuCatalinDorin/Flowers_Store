@@ -1,0 +1,36 @@
+body{
+    background-image: url(../IMAGINI/aboutpage2.jpg);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: 100% 90%;
+
+}
+.photoDiv{
+    float:right;
+    margin-right: 80px;
+    margin-left: 100px;
+}
+
+.imageDiv{
+
+    width: 600px;
+    height: 600px;
+    margin-top: 20px;
+   
+    
+    float:right;
+}
+.myImage{
+    margin-bottom: 20px;
+    margin-left: 30px;
+    margin-right: 20x;
+    border-radius: 200px 200px 200px 200px;
+-moz-border-radius: 200px 200px 200px 200px;
+-webkit-border-radius: 200px 200px 200px 200px;
+border: 0px solid #000000;
+opacity: 0.4; 
+
+}
+
+    
+
