@@ -2,7 +2,8 @@ body{
     background-image: url(../IMAGINI/aboutpage2.jpg);
     background-repeat: no-repeat;
     background-position: bottom;
-    background-size: 100% 90%;
+    background-size: 100% 84%;
+    
 
 }
 .photoDiv{
@@ -15,7 +16,7 @@ body{
 
     width: 600px;
     height: 600px;
-    margin-top: 20px;
+    margin-top: 50px;
    
     
     float:right;
@@ -32,5 +33,17 @@ opacity: 0.4;
 
 }
 
-    
+.textBox{
+    margin-top: 400px;
+    margin-left: 40px;
+}
+
+ #textcolor{
+     color:white;
+     opacity: 0.5;
+ }   
+
+ .container center-text{
+     margin-top: 200px;
+ }
 
