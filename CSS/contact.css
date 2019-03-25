@@ -51,7 +51,7 @@ a.nav-link {
     font-weight: 500;
     cursor: pointer;
     position: relative;
-    color: #404040;
+    color: #ff666;
     font: 20px Century Gothic;
 }
 
@@ -314,6 +314,7 @@ b.light-color{ color: #444; }
     top: 0;
     left: 0;
     background-image: url(../IMAGINI/contact1.jpg);
+    
     z-index: -1;
 }
 
@@ -337,6 +338,30 @@ b.light-color{ color: #444; }
 .breadcrumb-item + .breadcrumb-item:before {
     content: "\f105";
     font-family: 'FontAwesome'
+}
+
+.container-fluid{
+    text-align: center;
+    align-items: center;
+    
+    
+    hr {border-top: 1px solid #000; width:50%;}
+
+    a {color: #000;}
+    
+    a:link{text-decoration:none;}
+    
+    .box1{background: rgb(76, 175, 80, 0.6);}
+    .box2{background: rgb(192, 192, 200, 0.6);}
+    .box3{background: rgb(255, 0, 0, 0.6);;}
+    
+    
+    
+    #author a{
+      color: #fff;
+      text-decoration: none;
+        
+    }
 }
 .contact-form .form-control,
 .comment-form .form-control {
@@ -376,3 +401,163 @@ b.light-color{ color: #444; }
     background-position: center center;
 }
 
+.pb-100 {
+	padding-bottom: 100px;
+}
+.pt-100 {
+	padding-top: 100px;
+}
+.mb-100 {
+	margin-bottom: 100px;
+}
+a {
+	text-decoration: none;
+	color: #333;
+	-webkit-transition: .4s;
+	transition: .4s;
+}
+.section-title {
+	position: relative;
+}
+.section-title p {
+	font-size: 16px;
+	margin-bottom: 5px;
+	font-weight: 400;
+}
+.section-title h4 {
+	font-size: 40px;
+	font-weight: 600;
+	text-transform: capitalize;
+	position: relative;
+	padding-bottom: 20px;
+	display: inline-block;
+}
+.section-title h4::before {
+	position: absolute;
+	content: "";
+	width: 80px;
+	height: 2px;
+	background-color: #d8d8d8;
+	bottom: 0;
+	left: 50%;
+	margin-left: -40px;
+}
+.section-title h4::after {
+	position: absolute;
+	content: "";
+	width: 50px;
+	height: 2px;
+	background-color: rgb(187, 12, 56);
+	left: 0;
+	bottom: 0;
+	left: 50%;
+	margin-left: -25px;
+}
+.contact {
+	background-image: url("../IMAGINI/aboutmepage3.jpg");
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+	position: relative;
+	z-index: 2;
+	color: #fff;
+}
+.contact-form input,
+textarea {
+	width: 30%;
+	border: 1px solid #555;
+	padding: 5px 10px;
+	text-transform: capitalize;
+	margin-top: 15px;
+	background-color: transparent;
+	color: #fff;
+}
+.contact:before {
+	position: absolute;
+	content: "";
+	
+	
+	left: 0;
+	top: 0;
+	background-color: #333;
+	z-index: -1;
+	opacity: .85;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=85)";
+}
+.single-contact {
+	text-align: left;
+	position: relative;
+	padding-left: 70px;
+	margin-bottom: 50px;
+	margin-top: 10px;
+}
+.single-contact i.fa {
+	position: absolute;
+	left: 0;
+	top: 50%;
+	-webkit-transform: translateY(-50%);
+	        transform: translateY(-50%);
+	background-color: rgb(187, 12, 56);
+	width: 40px;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	border-radius: 3px;
+}
+.single-contact h5 {
+	font-size: 18px;
+	margin-bottom: 10px;
+	font-weight: 500;
+}
+.single-contact p {
+	font-size: 15px;
+	font-weight: 400;
+}
+.contact-form input[type="submit"] {
+	background-color: rgb(187, 12, 56);
+	border: 0px;
+	cursor: pointer;
+	font-size: 16px;
+	-webkit-transition: .4s;
+    transition: .4s
+
+}
+.contact-form input[type="submit"]:hover {
+	background-color:rgb(187, 12, 56)
+}
+.contact-form input:focus, textarea:focus {
+	border-color: rgb(187, 12, 56)
+}
+footer{ position: relative; z-index: 1; padding-top: 70px; }
+
+footer:after{ content: ''; position: absolute; top: 0; bottom: 0; left: 0; right: 0; z-index: -1;
+	opacity: .8; background: url(../../images/Background_Circle.png); }
+	
+footer ul > li > a{ padding: 10px 15px; }
+
+
+footer .logo-wrapper .icon{ color: #E45F74;}
+
+
+footer .logo{ display: block; height: 50px; }
+
+footer .logo img{ height: 100%; width: auto; }
+
+footer .newsletter{ margin: 20px 0; }
+
+footer .newsletter .title{ margin: 5px 0; }
+
+footer .newsletter .email-area{ position: relative; width: 400px; height: 55px; margin: 20px auto; }
+
+footer .email-area .email-input{ position: absolute; top: 0; bottom: 0; left: 0; width: 100%; border: 0; outline: 0; 
+	border-radius: 100px; padding: 0 70px 0 25px; transition: all .2s; box-shadow: 1px 10px 30px rgba(0,0,0,.2); }
+
+footer .email-area .email-input:focus{ box-shadow: 1px 15px 30px rgba(0,0,0,.3); }
+
+footer .email-area .submit-btn{ position: absolute; right: 0; height: 55px; width: 55px; line-height: 55px;
+	border-radius: 100px; background: #E55D73; color: #fff; }
+
+footer .email-area .submit-btn:hover{ background: #000; color: #E55D73; }
+
+
+footer .copyright{ padding: 20px 0 30px; }
